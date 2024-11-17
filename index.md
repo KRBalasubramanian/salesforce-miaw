@@ -132,7 +132,13 @@
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 	console.log( "Inside Prechat API!!" );
 	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "customerId" : "A123467899" } );
+
+    	  "Customer_Name": {
+            "value": "Karthick",
+            "isEditableByEndUser": false
+        }
 });
+    
 
 			embeddedservice_bootstrap.init(
 				'00DS8000000CBe1',
