@@ -109,6 +109,22 @@
 </head>
 <body>
 	<script type='text/javascript'>
+	function launchChat() {
+		embeddedservice_bootstrap.utilAPI.launchChat()
+		.then(() => {
+			console.log(
+				'Inside Launch Chat'
+			);
+		}).catch(() => {
+			console.log(
+				'Inside Launch Chat catch Block'
+			);
+		}).finally(() => {
+			console.log(
+				'Inside Launch Chat finally Block'
+			);
+		});
+		}
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US';
