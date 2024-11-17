@@ -189,7 +189,7 @@
         <h2>Contact Us</h2>
         <p>Have questions or need assistance? We're here to help!</p>
         <p>Email: support@MIAW.com</p>
-        <button id="launchChatButton" onclick="launchChat()">
+        <button id="launchChatButton" class = 'btn' onclick="launchChat()">
 		Send a message
 	</button>
     </section>
