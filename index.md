@@ -7,8 +7,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DS8000000CBe1',
-				'MIAW_Web',
-				'https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWeb1731852078425',
+				'MIAW_Web_Github',
+				'https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899',
 				{
 					scrt2URL: 'https://jumbo--nextview.sandbox.my.salesforce-scrt.com'
 				}
@@ -18,7 +18,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWeb1731852078425/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+<script type='text/javascript' src='https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
