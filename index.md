@@ -133,10 +133,14 @@
 	console.log( "Inside Prechat API!!" );
 	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "customerId" : "A123467899" } );
 
-    	  "Customer_Name": {
+    	 
+
+  embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({
+         "Customer_Name": {
             "value": "Karthick",
             "isEditableByEndUser": false
         }
+    });
 });
     
 
