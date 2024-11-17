@@ -39,14 +39,14 @@
             text-decoration: underline;
         }
 
-        .hero {
-            text-align: center;
-            padding: 50px 20px;
-            background-image: url('https://via.placeholder.com/1200x400');
-            background-size: cover;
-            background-position: center;
-            color: white;
-        }
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://images.unsplash.com/photo-1526569181025-0e3c6a443d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGluc3VyYW5jZXxlbnwwfHx8fDE2ODkxODY2MDM&ixlib=rb-1.2.1&q=80&w=1200');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 
         .hero h2 {
             margin-bottom: 20px;
@@ -105,6 +105,8 @@
         .btn:hover {
             background-color: #003580;
         }
+
+ 
     </style>
 </head>
 <body>
@@ -142,26 +144,27 @@
         <p>Protecting your family, assets, and business with the best coverage.</p>
         <a class="btn" href="#contact">Get a Quote</a>
     </section>
-    <section class="container">
-        <h2 id="services">Our Services</h2>
-        <div class="features">
-            <div class="feature">
-                <img src="https://via.placeholder.com/300x150" alt="Life Insurance">
-                <h3>Life Insurance</h3>
-                <p>Secure your loved ones' future with our customizable life insurance plans.</p>
-            </div>
-            <div class="feature">
-                <img src="https://via.placeholder.com/300x150" alt="Health Insurance">
-                <h3>Health Insurance</h3>
-                <p>Stay prepared for medical emergencies with our extensive health coverage.</p>
-            </div>
-            <div class="feature">
-                <img src="https://via.placeholder.com/300x150" alt="Auto Insurance">
-                <h3>Auto Insurance</h3>
-                <p>Protect your vehicles with comprehensive and affordable plans.</p>
-            </div>
+<section class="container">
+    <h2 id="services">Our Services</h2>
+    <div class="features">
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1588776814546-b84f26f7cf71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGxpZmUlMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Life Insurance">
+            <h3>Life Insurance</h3>
+            <p>Secure your loved ones' future with our customizable life insurance plans.</p>
         </div>
-    </section>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1583936504570-d7966ef4f9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGhlYWx0aCUyMGNhcmV8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Health Insurance">
+            <h3>Health Insurance</h3>
+            <p>Stay prepared for medical emergencies with our extensive health coverage.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1600803909240-3c52ed13a31b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGF1dG8lMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Auto Insurance">
+            <h3>Auto Insurance</h3>
+            <p>Protect your vehicles with comprehensive and affordable plans.</p>
+        </div>
+    </div>
+</section>
+
     <section class="container">
         <h2 id="about">About Us</h2>
         <p>
