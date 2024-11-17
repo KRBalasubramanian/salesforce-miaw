@@ -42,7 +42,7 @@
         .hero {
             text-align: center;
             padding: 50px 20px;
-            background-image: url('https://images.pexels.com/photos/1205643/pexels-photo-1205643.jpeg');
+            background-image: url('https://images.pexels.com/photos/1166640/pexels-photo-1166640.jpeg');
             background-size: cover;
             background-position: center;
             color: white;
@@ -145,11 +145,11 @@
         <h2 id="services">Our Services</h2>
         <div class="features">
             <div class="feature">
-                <img src="https://images.pexels.com/photos/4144062/pexels-photo-4144062.jpeg" alt="Life Insurance">
+                <img src="https://images.pexels.com/photos/4164996/pexels-photo-4164996.jpeg" alt="Life Insurance">
                 <h3>Life Insurance</h3>
             </div>
             <div class="feature">
-                <img src="https://images.pexels.com/photos/1005006/pexels-photo-1005006.jpeg" alt="Health Insurance">
+                <img src="https://images.pexels.com/photos/4164996/pexels-photo-4164996.jpeg" alt="Health Insurance">
                 <h3>Health Insurance</h3>
             </div>
             <div class="feature">
