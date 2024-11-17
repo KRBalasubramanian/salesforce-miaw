@@ -173,7 +173,7 @@
         <h2>Contact Us</h2>
         <p>Have questions or need assistance? We're here to help!</p>
         <p>Email: support@MIAW.com</p>
-        <a class="btn" href="mailto:support@MIAW.com">Send Us a Message</a>
+        <button class="btn" onclick = launchChat()>Send Us a Message</button>
     </section>
     <footer>
         &copy; 2024 MIAW Insurance. All rights reserved.
