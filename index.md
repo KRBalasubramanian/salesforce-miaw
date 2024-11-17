@@ -11,7 +11,6 @@
             background-color: #f4f4f9;
             color: #333;
         }
-	h1 a{display:none}
 
         header {
             background-color: #0047ab;
@@ -40,14 +39,14 @@
             text-decoration: underline;
         }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background-image: url('https://images.unsplash.com/photo-1526569181025-0e3c6a443d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGluc3VyYW5jZXxlbnwwfHx8fDE2ODkxODY2MDM&ixlib=rb-1.2.1&q=80&w=1200');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('https://images.pexels.com/photos/1205643/pexels-photo-1205643.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
 
         .hero h2 {
             margin-bottom: 20px;
@@ -106,8 +105,6 @@
         .btn:hover {
             background-color: #003580;
         }
-
- 
     </style>
 </head>
 <body>
@@ -132,7 +129,8 @@
 <script type='text/javascript' src='https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
     <header>
-        <h1>Life Insurance</h1>
+        <h1>MIAW Insurance</h1>
+        <p>Your Future, Secured Today</p>
     </header>
     <nav>
         <a href="#services">Services</a>
@@ -143,38 +141,37 @@
         <h2>Insurance Plans</h2>
         <a class="btn" href="#contact">Get a Quote</a>
     </section>
-<section class="container">
-    <h2 id="services">Our Services</h2>
-    <div class="features">
-        <div class="feature">
-            <img src="https://images.unsplash.com/photo-1588776814546-b84f26f7cf71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGxpZmUlMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Life Insurance">
-            <h3>Life Insurance</h3>
+    <section class="container">
+        <h2 id="services">Our Services</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://images.pexels.com/photos/4144062/pexels-photo-4144062.jpeg" alt="Life Insurance">
+                <h3>Life Insurance</h3>
+            </div>
+            <div class="feature">
+                <img src="https://images.pexels.com/photos/1005006/pexels-photo-1005006.jpeg" alt="Health Insurance">
+                <h3>Health Insurance</h3>
+            </div>
+            <div class="feature">
+                <img src="https://images.pexels.com/photos/4164996/pexels-photo-4164996.jpeg" alt="Auto Insurance">
+                <h3>Auto Insurance</h3>
+            </div>
         </div>
-        <div class="feature">
-            <img src="https://images.unsplash.com/photo-1583936504570-d7966ef4f9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGhlYWx0aCUyMGNhcmV8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Health Insurance">
-            <h3>Health Insurance</h3>
-        </div>
-        <div class="feature">
-            <img src="https://images.unsplash.com/photo-1600803909240-3c52ed13a31b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGF1dG8lMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Auto Insurance">
-            <h3>Auto Insurance</h3>
-        </div>
-    </div>
-</section>
-
+    </section>
     <section class="container">
         <h2 id="about">About Us</h2>
         <p>
-            MIAW Insurance has been providing insurance solutions for over 20 years. 
+            MIAW Insurance has been providing reliable insurance solutions for over 20 years.
         </p>
     </section>
     <section class="container" id="contact">
         <h2>Contact Us</h2>
+        <p>Have questions or need assistance? We're here to help!</p>
         <p>Email: support@MIAW.com</p>
         <a class="btn" href="mailto:support@MIAW.com">Send Us a Message</a>
     </section>
     <footer>
         &copy; 2024 MIAW Insurance. All rights reserved.
     </footer>
-	
 </body>
 </html>
