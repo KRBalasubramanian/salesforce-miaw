@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecureLife Insurance</title>
+    <title>MIAW Insurance</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
             background-color: #f4f4f9;
             color: #333;
         }
+	h1 a{display:none}
 
         header {
             background-color: #0047ab;
@@ -131,8 +132,7 @@
 <script type='text/javascript' src='https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
     <header>
-        <h1>SecureLife Insurance</h1>
-        <p>Your Future, Secured Today</p>
+        <h1>Life Insurance</h1>
     </header>
     <nav>
         <a href="#services">Services</a>
@@ -140,8 +140,7 @@
         <a href="#contact">Contact</a>
     </nav>
     <section class="hero">
-        <h2>Comprehensive Insurance Plans</h2>
-        <p>Protecting your family, assets, and business with the best coverage.</p>
+        <h2>Insurance Plans</h2>
         <a class="btn" href="#contact">Get a Quote</a>
     </section>
 <section class="container">
@@ -150,17 +149,14 @@
         <div class="feature">
             <img src="https://images.unsplash.com/photo-1588776814546-b84f26f7cf71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGxpZmUlMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Life Insurance">
             <h3>Life Insurance</h3>
-            <p>Secure your loved ones' future with our customizable life insurance plans.</p>
         </div>
         <div class="feature">
             <img src="https://images.unsplash.com/photo-1583936504570-d7966ef4f9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGhlYWx0aCUyMGNhcmV8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Health Insurance">
             <h3>Health Insurance</h3>
-            <p>Stay prepared for medical emergencies with our extensive health coverage.</p>
         </div>
         <div class="feature">
             <img src="https://images.unsplash.com/photo-1600803909240-3c52ed13a31b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGF1dG8lMjBpbnN1cmFuY2V8ZW58MHx8fHwxNjg5MTg2NjAz&ixlib=rb-1.2.1&q=80&w=400" alt="Auto Insurance">
             <h3>Auto Insurance</h3>
-            <p>Protect your vehicles with comprehensive and affordable plans.</p>
         </div>
     </div>
 </section>
@@ -168,19 +164,16 @@
     <section class="container">
         <h2 id="about">About Us</h2>
         <p>
-            SecureLife Insurance has been providing reliable insurance solutions for over 20 years. 
-            We are committed to offering personalized service and top-notch support to help you find the 
-            perfect coverage for your needs.
+            MIAW Insurance has been providing insurance solutions for over 20 years. 
         </p>
     </section>
     <section class="container" id="contact">
         <h2>Contact Us</h2>
-        <p>Have questions or need assistance? We're here to help!</p>
-        <p>Email: support@securelife.com | Phone: 1-800-INSURE</p>
-        <a class="btn" href="mailto:support@securelife.com">Send Us a Message</a>
+        <p>Email: support@MIAW.com</p>
+        <a class="btn" href="mailto:support@MIAW.com">Send Us a Message</a>
     </section>
     <footer>
-        &copy; 2024 SecureLife Insurance. All rights reserved.
+        &copy; 2024 MIAW Insurance. All rights reserved.
     </footer>
 	
 </body>
