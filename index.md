@@ -111,8 +111,8 @@
 	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			//embeddedservice_bootstrap.settings.language = 'en_US';
-			embeddedservice_bootstrap.settings.language = 'fr';
+			embeddedservice_bootstrap.settings.language = 'en_US';
+			//embeddedservice_bootstrap.settings.language = 'fr';
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 	console.log( "Inside Prechat API!!" );
 	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "customerId" : "A123467899" } );
