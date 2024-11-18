@@ -136,7 +136,7 @@ embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
             ({
             identityTokenType : "JWT", 
 
-            identityToken :"eyJraWQiOiIyMDI0MTEwMSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJzYWxlc2ZvcmNlIiwic3ViIjoia2FydGhpY2stYXBpIiwiZXhwIjoxNzM0NDM3NzUxLCJpYXQiOjE3MzE4NDU3NTF9.Oei-Bt0kEAFkuBheBE_XL0GJhHjYamgMwTeKwo5MnyfpYrv0muu1wPIOzJNh915MTJu_hGiTGNwpH0RdNkSOUux12_uATpdgjKGo77wJ8uIXOjqCTThIsVeA07TkPyhyAs2CcQ1PSnzsXJsDBDkWiNzIH6TLdzN3irkA8Wg7qShy9plyV1jeCKxhi_WkoijYjhc6OnQLYzfWhznrEfseYE3KBece3kBYq4W180oElo8ri0pbQ555AIMDGtVFOUxOQjtpT50k0dK6LzPfP-w4HLEyhExBYAta3IBFp9hl5HUlet9PrYLER5p_y03Ud2i7PHQKbNmczxVhbHtdbmC5YA12345"
+            identityToken :"eyJraWQiOiIyMDI0MTEwMSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJzYWxlc2ZvcmNlIiwic3ViIjoia2FydGhpY2stYXBpIiwiZXhwIjoxNzM0NDM3NzUxLCJpYXQiOjE3MzE4NDU3NTF9.Oei-Bt0kEAFkuBheBE_XL0GJhHjYamgMwTeKwo5MnyfpYrv0muu1wPIOzJNh915MTJu_hGiTGNwpH0RdNkSOUux12_uATpdgjKGo77wJ8uIXOjqCTThIsVeA07TkPyhyAs2CcQ1PSnzsXJsDBDkWiNzIH6TLdzN3irkA8Wg7qShy9plyV1jeCKxhi_WkoijYjhc6OnQLYzfWhznrEfseYE3KBece3kBYq4W180oElo8ri0pbQ555AIMDGtVFOUxOQjtpT50k0dK6LzPfP-w4HLEyhExBYAta3IBFp9hl5HUlet9PrYLER5p_y03Ud2i7PHQKbNmczxVhbHtdbmC5YA"
             });
     	 
 
