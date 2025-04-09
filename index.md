@@ -115,10 +115,12 @@
 			console.log(
 				'Inside Launch Chat'
 			);
-		}).catch(() => {
+		}).catch((err) => {
 			console.log(
 				'Inside Launch Chat catch Block'
 			);
+
+   console.log(err);
 		}).finally(() => {
 			console.log(
 				'Inside Launch Chat finally Block'
