@@ -114,7 +114,16 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			window.addEventListener("onEmbeddedMessagingReady", () => {            
+				console.log( "Inside Prechat API!!" );
+			embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
+						({
+						identityTokenType : "JWT", 
 
+						identityToken :"eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3NDQzMzQ3NzEsImlhdCI6MTc0NDMyODc3MX0.eoL5saK_s7IX6K4yChmUGy1kLABQDStDKaVb_YJqCKXwnR1YR7uvMge8GE811U4pjBmrpxQLi2gunCF-mweoFIa1H7YateezUrrPFp19e0w6z0x1FgTONHgkATK9PF5CDS2H_EHLBzFXuwNaTdmtGYUdzC0wWoOBucTU5NF5rgum06Kz90srPxTPkzYJr9Xe_nDuLOekX7j9RiaAbwiaAox6l9CpsTuDL_orUCG7ed9YsoHF6_KvwerIiglVWSZAqUM1KqcJxXBFfJQuOyR-0GTh_KWP-U7clC9aFSKz8p-TKUQ-X1vK4kp1S-hcYyl2qcdLW34ykVVMw_N4lDPtdQ"
+						});
+					 
+			});
 			embeddedservice_bootstrap.init(
 				'00D8D0000004cJ8',
 				'MIAW_POC_AUTH_Web',
