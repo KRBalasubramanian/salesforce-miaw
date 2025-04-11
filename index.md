@@ -108,48 +108,24 @@
     </style>
 </head>
 <body>
-	<script type='text/javascript'>
-	function launchChat() {
-		embeddedservice_bootstrap.utilAPI.launchChat()
-		.then(() => {
-			console.log(
-				'Inside Launch Chat'
-			);
-		}).catch((err) => {
-			console.log(
-				'Inside Launch Chat catch Block'
-			);
 
-   console.log(err);
-		}).finally(() => {
-			console.log(
-				'Inside Launch Chat finally Block'
-			);
-		});
-		}
+
+<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = 'en_US';
-			//embeddedservice_bootstrap.settings.language = 'fr';
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
-	console.log( "Inside Prechat API!!" );
-	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "customerId" : "A123467899" } );
-embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
-            ({
-            identityTokenType : "JWT", 
+				console.log( "Inside Prechat API!!" );
+			embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
+						({
+						identityTokenType : "JWT", 
 
-            identityToken :"eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3NDQzMzQ3NzEsImlhdCI6MTc0NDMyODc3MX0.eoL5saK_s7IX6K4yChmUGy1kLABQDStDKaVb_YJqCKXwnR1YR7uvMge8GE811U4pjBmrpxQLi2gunCF-mweoFIa1H7YateezUrrPFp19e0w6z0x1FgTONHgkATK9PF5CDS2H_EHLBzFXuwNaTdmtGYUdzC0wWoOBucTU5NF5rgum06Kz90srPxTPkzYJr9Xe_nDuLOekX7j9RiaAbwiaAox6l9CpsTuDL_orUCG7ed9YsoHF6_KvwerIiglVWSZAqUM1KqcJxXBFfJQuOyR-0GTh_KWP-U7clC9aFSKz8p-TKUQ-X1vK4kp1S-hcYyl2qcdLW34ykVVMw_N4lDPtdQ"
-            });
-    	 
+						identityToken :"eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3NDQzMzQ3NzEsImlhdCI6MTc0NDMyODc3MX0.eoL5saK_s7IX6K4yChmUGy1kLABQDStDKaVb_YJqCKXwnR1YR7uvMge8GE811U4pjBmrpxQLi2gunCF-mweoFIa1H7YateezUrrPFp19e0w6z0x1FgTONHgkATK9PF5CDS2H_EHLBzFXuwNaTdmtGYUdzC0wWoOBucTU5NF5rgum06Kz90srPxTPkzYJr9Xe_nDuLOekX7j9RiaAbwiaAox6l9CpsTuDL_orUCG7ed9YsoHF6_KvwerIiglVWSZAqUM1KqcJxXBFfJQuOyR-0GTh_KWP-U7clC9aFSKz8p-TKUQ-X1vK4kp1S-hcYyl2qcdLW34ykVVMw_N4lDPtdQ"
+						});
+					 
+			});
 
-  embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({
-         "Customer_Name": {
-            "value": "Karthick",
-            "isEditableByEndUser": false
-        }
-    });
-});
-    
 
 			embeddedservice_bootstrap.init(
 				'00D8D0000004cJ8',
@@ -164,7 +140,8 @@ embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
 		}
 	};
 </script>
-<script type='text/javascript' src='https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://farmerssrm--solex5.sandbox.my.site.com/ESWMIAWPOCAUTHWeb1744329772619/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
     <header>
         <h1>MIAW Insurance</h1>
