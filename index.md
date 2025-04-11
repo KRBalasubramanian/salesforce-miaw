@@ -138,7 +138,7 @@ embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
             ({
             identityTokenType : "JWT", 
 
-            identityToken :"eyJraWQiOiIyMDI0MTEwMSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJzYWxlc2ZvcmNlIiwic3ViIjoia2FydGhpY2stYXBpIiwiZXhwIjoxNzM0NDM3NzUxLCJpYXQiOjE3MzE4NDU3NTF9.Oei-Bt0kEAFkuBheBE_XL0GJhHjYamgMwTeKwo5MnyfpYrv0muu1wPIOzJNh915MTJu_hGiTGNwpH0RdNkSOUux12_uATpdgjKGo77wJ8uIXOjqCTThIsVeA07TkPyhyAs2CcQ1PSnzsXJsDBDkWiNzIH6TLdzN3irkA8Wg7qShy9plyV1jeCKxhi_WkoijYjhc6OnQLYzfWhznrEfseYE3KBece3kBYq4W180oElo8ri0pbQ555AIMDGtVFOUxOQjtpT50k0dK6LzPfP-w4HLEyhExBYAta3IBFp9hl5HUlet9PrYLER5p_y03Ud2i7PHQKbNmczxVhbHtdbmC5YA"
+            identityToken :"eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3NDQzMzQ3NzEsImlhdCI6MTc0NDMyODc3MX0.eoL5saK_s7IX6K4yChmUGy1kLABQDStDKaVb_YJqCKXwnR1YR7uvMge8GE811U4pjBmrpxQLi2gunCF-mweoFIa1H7YateezUrrPFp19e0w6z0x1FgTONHgkATK9PF5CDS2H_EHLBzFXuwNaTdmtGYUdzC0wWoOBucTU5NF5rgum06Kz90srPxTPkzYJr9Xe_nDuLOekX7j9RiaAbwiaAox6l9CpsTuDL_orUCG7ed9YsoHF6_KvwerIiglVWSZAqUM1KqcJxXBFfJQuOyR-0GTh_KWP-U7clC9aFSKz8p-TKUQ-X1vK4kp1S-hcYyl2qcdLW34ykVVMw_N4lDPtdQ"
             });
     	 
 
@@ -152,11 +152,11 @@ embeddedservice_bootstrap.userVerificationAPI.setIdentityToken
     
 
 			embeddedservice_bootstrap.init(
-				'00DS8000000CBe1',
-				'MIAW_Web_Github',
-				'https://jumbo--nextview.sandbox.my.site.com/ESWMIAWWebGithub1731857104899',
+				'00D8D0000004cJ8',
+				'MIAW_POC_AUTH_Web',
+				'https://farmerssrm--solex5.sandbox.my.site.com/ESWMIAWPOCAUTHWeb1744329772619',
 				{
-					scrt2URL: 'https://jumbo--nextview.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://farmerssrm--solex5.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
